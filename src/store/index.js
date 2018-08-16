@@ -11,6 +11,7 @@ export const getReady = new Promise((resolve, reject) => {
 })
 
 export function getItem (password) {
+  console.log("hrmm?", items)
   if (!password) {
     return currentItem
   }
